@@ -1,12 +1,12 @@
 const FILES_TO_CACHE = [
     "/",
     "/index.html",
-    "css/styles.css",
-    "/js/index.js",
-    "/js/db.js",
+    "/assets/css/styles.css",
+    "/assets/js/index.js",
+    "/assets/js/db.js",
     "/manifest.webmanifest",
-    "/icons/icon-192x192.png",
-    "/icons/icon-512x512.png",
+    "/assets/img/icons/icon-192x192.png",
+    "/assets/img/icons/icon-512x512.png",
 ];
 
 const CACHE_NAME = "static-cache-v2";
@@ -24,6 +24,7 @@ self.addEventListener("install", function (evt) {
     self.skipWaiting();
 });
 
+//activation
 self.addEventListener("activate", function (evt) {
     evt.waitUntil(
         caches.keys().then(keyList => {
