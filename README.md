@@ -18,7 +18,7 @@ It is a progressive web application. It can be used in a offline environment or 
 AS AN avid traveller
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling
 
-This project is a fullstack application that tracks the users workouts and provides visual data to track progress. The application uses node.js, express, MongoDB and mongoose. It also makes use of indexedDB to store things while offline.  
+This project is a fullstack application that tracks the users workouts and provides visual data to track progress. The application uses node.js, express, MongoDB and mongoose. It also makes use of indexedDB to store things while offline. To add in functionality while off line it makes use of service worker application and manifest to apply offline native app look.  
 
 GIVEN a user is on Budget App without an internet connection
 WHEN the user inputs a withdrawal or deposit
@@ -46,7 +46,7 @@ THEN that will be shown on the page, and added to their transaction history when
 
 ## Javascript
 
-Javascript was use to make most of the program between nodeJS and jQuery. The front end functionality was provided to us.
+Javascript was use to make most of the program between nodeJS and jQuery. A part of the front end functionality was provided. We added in a service worker and also a manifest for native app purposes. In order for the data to persist after coming back on line we also introduce indexedDB which is a local database storage. In using this we are able to store the offline data and then insert it in the cloud database storage.
 
 ### Mongodb
 
