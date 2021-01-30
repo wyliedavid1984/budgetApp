@@ -1,7 +1,7 @@
 body {
   font-size: 120%;
   font-family: Arial;
-  background-image: url("./img/vault.png") no-repeat;
+  background-image: url("./assets/img/vault.png") no-repeat;
   background-size: cover;
   background-color: white;
   z-index: -9999;
