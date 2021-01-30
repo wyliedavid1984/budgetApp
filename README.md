@@ -123,7 +123,8 @@ Click on the gif to be linked to the video
 * [W3Schools](https://www.w3schools.com/sql/default.asp)
 * [Vault photo](https://www.vectorstock.com/royalty-free-vector/bank-vault-background-with-money-gold-vector-20834249)
 * [Google tutorial](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker-slides)
-
+* [Icon maker](https://makeappicon.com/download/c15e4bd2493f458791e2c13cb3c61044)
+* [Icon origin-Pinterest](https://www.pinterest.com/pin/333547916153293823/)
 ## License
 
 MIT License

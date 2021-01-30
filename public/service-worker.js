@@ -5,6 +5,11 @@ const FILES_TO_CACHE = [
     "/assets/js/index.js",
     "/assets/js/db.js",
     "/manifest.webmanifest",
+    "/assets/img/vault.png",
+    "/assets/img/icons/icon-48x48.png",
+    "/assets/img/icons/icon-72x72.png",
+    "/assets/img/icons/icon-96x96.png",
+    "/assets/img/icons/icon-144x144.png",
     "/assets/img/icons/icon-192x192.png",
     "/assets/img/icons/icon-512x512.png",
 ];
