@@ -1,11 +1,9 @@
 body {
   font-size: 120%;
   font-family: Arial;
-  background-image: url("./assets/img/vault.png") no-repeat;
+  background-image: url("./assets/img/vault.png");
   background-size: cover;
-  background-color: white;
   z-index: -9999;
-
 }
 
 button,

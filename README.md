@@ -12,18 +12,13 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 ## Description 
 
-
 It is a progressive web application. It can be used in a offline environment or online.
 
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling
-
-This project is a fullstack application that tracks the users workouts and provides visual data to track progress. The application uses node.js, express, MongoDB and mongoose. It also makes use of indexedDB to store things while offline. To add in functionality while off line it makes use of service worker application and manifest to apply offline native app look.  
+This project is a fullstack application that tracks the users money. The application uses node.js, express, MongoDB and mongoose. It also makes use of indexedDB to store things while offline. To add in functionality while off line it makes use of service worker application and manifest to apply offline native app look.  
 
 GIVEN a user is on Budget App without an internet connection
 WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
 
 ### Table Of Contents
 
@@ -46,7 +41,7 @@ THEN that will be shown on the page, and added to their transaction history when
 
 ## Javascript
 
-Javascript was use to make most of the program between nodeJS and jQuery. A part of the front end functionality was provided. We added in a service worker and also a manifest for native app purposes. In order for the data to persist after coming back on line we also introduce indexedDB which is a local database storage. In using this we are able to store the offline data and then insert it in the cloud database storage.
+Javascript was use to make most of the program between nodeJS and jQuery. A part of the front end functionality was provided. We added in a service worker and also a manifest for native app purposes. In order for the data to persist after coming back on line we also introduce indexedDB which is a local database storage. In using this we are able to store the offline data and then insert it in the cloud database storage when the application comes back online.
 
 ### Mongodb
 
@@ -62,15 +57,23 @@ I used node to initialize package.json. After the initialization, I added mongoo
 
 ### NPM
 
-I used npm to install the following dependencies mongoose, morgan, and express. 
+I used npm to install the following dependencies mongoose, morgan, compression, and express. 
 
 #### **Mongoose**
 
-I used this to query data from our mongo data base. I also used it to create a schema as well as methods for the schema to help with total duration of the workout (combining all the exercises in the workout).
+I used this to query data from our mongo data base. I also used it to create a schema. 
 
 #### **Express**
 
 Express made coding this application much easier. I made use of the express function through a variable named route.  It helped to reduce the amount of code needed to make requests and responses.  I built routes and stored them in the routes files. I used the express router function to make it easier to set up the requests. 
+
+#### **Morgan**
+
+Morgan was just used for our terminal to add a little color and make the readability of the back end console log just a little easier to read
+
+#### **Compression**
+
+Compression helped with compressing down bigger js files.  It takes all the code and help to minify it.
 
 ## HTML
 
@@ -84,7 +87,7 @@ This was provided for us. It was use to position and style some of the html layo
 
 ## Usages
 
-To help keep track of a persons workouts. You are able to track each exercise individually so that they are combined in 
+AS AN avid traveller, I WANT to be able to track my withdrawals and deposits with or without a data/internet connection. SO THAT my account balance is accurate when I am traveling.
 
 ## Installation Instructions
 
@@ -96,10 +99,6 @@ This app is deployed. If you do want to add it locally. After forking and clonin
 
 <details>
 <summary>Screen Shots and Gif with Video link</summary>
-
-![Index Page](./public/img/index.png)
-
-![Stats Page](./public/img/stats.png)
 
 ![Exercise Page cardio](./public/img/cardio.png)
 
