@@ -100,14 +100,14 @@ This app is deployed. If you do want to add it locally. After forking and clonin
 <details>
 <summary>Screen Shots and Gif with Video link</summary>
 
-![Exercise Page cardio](./public/img/cardio.png)
+![Before Data](./public/assets/img/beforeData.png)
 
-![Exercise Page resistance](./public/img/resistance.png)
+![With Data](./public/assets/img/withData.png)
 
 
 Click on the gif to be linked to the video
 
-[![Gif of video](./public/img/fitnessTracker.gif)](https://drive.google.com/file/d/1gxIVTaGGQ1s8iOfuiRzn6souWQxnQH1c/view)
+[![Gif of video](./public/assets/img/budget.gif)](https://drive.google.com/file/d/12Aggf5kWRxrdSZCopDG7waL74Cc5FT8E/view)
 
 
 </details>
