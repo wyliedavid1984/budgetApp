@@ -1,5 +1,5 @@
 # budgetApp
-# WorkoutApp
+
 
 ## User Story
 As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
@@ -8,7 +8,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/><img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/><img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/><img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 
-[Link to Deployed app](https://immense-escarpment-41710.herokuapp.com/burgers)
+[Link to Deployed app](https://rocky-spire-17040.herokuapp.com/)
 
 ## Description 
 
